@@ -126,3 +126,4 @@ class SubmodularPick(object):
 
         self.sp_explanations = [self.explanations[i] for i in V]
         self.V = V
+        self.indices = sample_indices[V]
